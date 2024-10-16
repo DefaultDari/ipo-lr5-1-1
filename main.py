@@ -9,7 +9,7 @@ def count_letters(s): #Фукнция для подсчета букв
         elif char in not_vowels: #Проверка на согласную
             not_vowels_amount +=1 #Добавление к счетчику согласных
     return vowels_amount, not_vowels_amount #Возвращение значений
-string = input("Введие строку: ") #Ввод строки
+string = input("Введите строку: ") #Ввод строки
 length= len(string) #Определение длины строки
 vowels, not_vowels = count_letters(string) #Выполнение функции
 print(f"Длина всей строки: {length}") #Вывод длины строки
